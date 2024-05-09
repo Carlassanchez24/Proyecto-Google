@@ -119,11 +119,7 @@ footer{
     margin-right: 20%;
     padding: 5%;
 }
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
+
   
   .navigation {
     background-color: #ffffff;
@@ -178,17 +174,17 @@ a{
     padding: 30px;
     color: #58626B;
     justify-content: space-between;
-       
-
-}
-#azul{
-    color: #1A73E9 !important;
 }
 #flecha{
     margin-right: 10px;
-    
-    
 }
+    
+#azul{
+    color: #1A73E9 !important;
+}
+
+    
+
 .footer{
     background-color: #ffffff;
     display: flex;
@@ -248,7 +244,7 @@ a{
 
 .bloque4{
 background-color: #F8F9FB;
-border-radius: 5px;
+border-radius: 4%;
 margin-left: 3%;
 padding: 4%;
 

@@ -8,54 +8,50 @@
 </head>
 <body>
     <header> 
-        <nav class="navigation" id="menu-navigation">
-            <a href="#" class="logo-google">
+        <nav class="navigation">
+            <div class="logo-container">
                 <img src="/images/google-logo.png" id="logo-google">
-            </a>
+            </div>
             <ul class="opciones-menu" id="opciones-menu">
                 <li class="opciones-menu-li"><a href="" class="opciones-menu-li">Phones</a></li>
-                <li class="li"><a href="webdesign.html" class="opciones-menu-li">Earbuds</a></li>
-                <li class="li"><a href="#" class="opciones-menu-li" id="azul">Watches</a></li>
+                <li class="li"><a href="/webdesign.html" class="opciones-menu-li" >Earbuds</a></li>
+                <li class="li"><a href="webdesign2.html" class="opciones-menu-li" id="azul">Watches</a></li>
                 <li class="li"><a href="#" class="opciones-menu-li">Smart Home</a></li>
                 <li class="li"><a href="#" class="opciones-menu-li">Accessories</a></li>
                 <li class="li"><a href="#" class="opciones-menu-li"> Subscriptions</a></li>
             </ul>
             <div class="opciones-usuario">
-                <div>
+
                     <img src="/images/Search.svg" alt="search">
                     <img src="/images/Help.svg" alt="help">
                     <img src="/images/Cart.svg" alt="cart">
                     <img src="/images/Avatar.svg" alt="avatar">
-                </div>
+
             </div>
         </nav>
-    </header>    
+    </header>     
     
     <nav class="flecha-atras"><img src="/images/Arrow.svg" alt="" id="flecha">See product details
     </nav>
 
     <main class="main">
-        <section class="bloque1">
-            <article>
-                <figure></figure>
-            </article>
-        </section>
-        <section id="bloque2">
+        <section id="bloquecentro" class="bloque2">
             <img id="reloj-centro"  src="/images/smartwatch_black.png" alt="">
         </section>
-        <section class="bloque3">
+        <section id="color" class="bloque3">
             <p id="texto-producto">Fitbit Inpire 3</p>
             <p >Health & Fitness Tracker</p>
             <p id="preciosmall">99,95 €</p>
             <hr class="linea-separadora">
             <p>Choose a color</p>
             <article class="colorwatch">
-                <button class="smartwatch_black" id="watch-negro"><img src="/images/smartwatch_black.png" alt=""></button>
+                <button class="smartwatch_black" id="watch-negro">
+                <img src="/images/smartwatch_black.png" alt=""><p id="textoreloj1">Midnight Zen</p></button>
 
-                <button class="smartwatch_pink" id="watch-pink"><img src="/images/smartwatch_pink.png" alt=""> </button>
+                <button class="smartwatch_pink" id="watch-pink"><img src="/images/smartwatch_pink.png" alt=""><p id="textoreloj2">Lilac Bliss</p> </button>
 
-                <button class="smartwatch_yellow" id="watch-yellow"><img src="/images/smartwatch_yellow.png" alt=""> </button>
-                
+                <button class="smartwatch_yellow" id="watch-yellow"><img src="/images/smartwatch_yellow.png" alt=""><p id="textoreloj3">Morning Glow</p> </button>
+        
             </article>
         </section>
         <section id="bloque4" class="bloque4">
@@ -64,7 +60,6 @@
             <select id="unidades">
                 <option id="centrar" value="1" selected>1</option>
                 <option value="2">2</option>
-
             </select>
             
             <button id="add">Add to Cart</button>

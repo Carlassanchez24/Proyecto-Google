@@ -1,12 +1,12 @@
 
 #logo-google{
     width: 30px;
+    margin-right: 20%;
+    padding: 5%;
 }
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #353B4B; 
-  }
+hr{
+    color: #58626B;
+}
   
   
 .navigation {
@@ -18,6 +18,7 @@ body {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #58626B;
 }
 
 
@@ -41,6 +42,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
 }
 
 .opciones-menu-li {
@@ -61,19 +63,18 @@ a{
     padding: 30px;
     color: #58626B;
     justify-content: space-between;
-    
-    
-
-}
-#azul{
-    color: #1A73E9 !important;
 }
 #flecha{
     margin-right: 10px;
-    
-    
 }
-footer{
+    
+#azul{
+    color: #1A73E9 !important;
+}
+
+    
+
+.footer{
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
@@ -88,16 +89,15 @@ footer{
     padding: 0;
     display: flex;
 }
-.page-conditions{
-    margin-right: 50px;
-    color: #889196;
 
-}
 #texto-producto{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 35px;
     color: #353B4B;
+    text-align: start;
+    justify-self: flex-start;
+    margin-top: 1%;
 }
 
 #preciosmall{
@@ -138,13 +138,19 @@ footer{
     grid-template-columns: repeat(3, 1fr); 
     gap: 5px;
     background-color: white;
+    
+    height: 7%;
+    align-content: flex-end;
+    flex-direction: row;
 }
 
 .colorwatch img{
-    width: 50px;
-    height: 70px;
+    width: 95px;
+    height: 80px;
 }
-
+#textoreloj1, #textoreloj2, #textoreloj3 {
+    text-align:center;
+}
 
 #unidades{
     background-color: white;
@@ -174,14 +180,25 @@ footer{
     width: 100%;
 }
 
-
-#bloque2{
-    align-items:self-start
+.bloque2{
+    margin-left: 15%;
+    margin-bottom: 20%;
+    border-radius: 5%;
 }
 
+.bloque2 img{
+    padding: 10%;
+}
+#bloquecentro{
+    align-items: center;
+    background-color: rgb(248, 249, 251);
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
 
-
-.main {display: grid;
+.main {margin-right: 2%;
+    display: grid;
         grid-template-areas: "uno dos"
                              "uno tres"}
 
@@ -191,37 +208,26 @@ footer{
 
 
 
- .bloque4{
+.bloque4{
         background-color: #F8F9FB;
         border-radius: 5px;
         margin-left: 3%;
         padding: 4%;
-        
+        margin-right: 40%;
+        margin-top: 5% ;
+        margin-bottom: 20%;
         }
-    
-#reloj-centro{
-        width: 400px;
-        height: 300px;
-        border-width: 1%;
-        border-radius: 5%;
-        background-color: rgb(248, 249, 251);
-        grid-row-start: auto; 
-        align-items: flex-start;
-        margin-bottom: 30%;
-    
-}
-#bloque2{
-    display: flex;
-    justify-content: center;
-    grid-row-start: 1;
-    
-    
-    
 
+#reloj-centro{
+        border-radius: 5%;
+        display: flex;
+        margin-left: 20px;
+   
 }
-.bloque1{
-    margin-left: 35%;
-    margin-top: 100%;
+
+.bloque2{
+    margin-left: 5%;
+    margin-bottom: 30%;
 }
 .bloque3{
     padding-left: 4%;
@@ -230,6 +236,36 @@ footer{
     align-self: flex-start;
     justify-self: flex-start;
 }
+#color{
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.color img{
+    width: 50px;
+    height: 70px;
+}
 #centrar{
     text-align: center;
 }
+.opciones-usuario{
+    margin-left:auto;
+    display: flex;
+
+}
+.logo-container{
+    padding-right: 2%;
+    padding-left: 2%;}
+
+
+.page-conditions{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+.page-conditions{
+        margin-right: 50px;
+        color: #889196;
+    
+    }
