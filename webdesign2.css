@@ -1,0 +1,216 @@
+
+#logo-google{
+    width: 30px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #353B4B; 
+  }
+  
+  
+.navigation {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.navigation {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo-google img {
+    height: 30px;
+    width: auto;
+}
+
+
+.opciones-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.opciones-menu-li {
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #58626B;
+}
+
+
+.opciones-usuario img {
+    height: 24px;
+    margin-left: 10px;
+}
+
+.flecha-atras{
+    padding: 30px;
+    color: #58626B;
+    justify-content: space-between;
+    
+    
+
+}
+#azul{
+    color: #1A73E9 !important;
+}
+#flecha{
+    margin-right: 10px;
+    
+    
+}
+footer{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.opciones-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.page-conditions{
+    margin-right: 50px;
+    color: #889196;
+
+}
+#texto-producto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #353B4B;
+}
+#preciosmall{
+    font-size: 20px;
+    font-weight: bold;
+}
+#price{
+    font-weight: bold;
+}
+
+.smartwatch_yellow{
+    background-color: white;
+    border-radius: 5%;
+    border-color: #353B4B;
+    border: 1px solid;
+    
+}
+.smartwatch_pink
+{
+    background-color: white;
+    border-radius: 5%;
+    border-color: #353B4B;
+    border: 1px solid;
+}
+.smartwatch_black{
+    background-color: white;
+    border-radius: 5px;
+    border-color: #353B4B;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.colorwatch {
+    
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px;
+    background-color: white;
+}
+
+.colorwatch img{
+    width: 50px;
+    height: 70px;
+}
+
+
+#unidades{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 70px;
+    height: 40px;
+    border-color: #58626B;
+
+
+}
+#add{
+    background-color: #1A73E9;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 180px;
+    height: 40px;
+    align-items:flex-start;
+    color: white;
+
+}
+
+#foot{
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+}
+
+
+#bloque2{
+    align-items:self-start
+}
+
+
+
+.main {display: grid;
+        grid-template-areas: "uno dos"
+                             "uno tres"}
+
+.main .bloque2{grid-area: uno;}
+.main .bloque3{grid-area: dos;}
+.main .bloque4{grid-area: tres;}
+
+
+#bloque4{
+    background-color: #F8F9FB;
+    border-radius: 5px;
+    border: 20%;
+    
+    }
+
+    
+#reloj-centro{
+        width: 400px;
+        height: 300px;
+        border-width: 1%;
+        border-radius: 5%;
+        background-color: rgb(248, 249, 251);
+        grid-row-start: auto; 
+        align-items: flex-start;
+        margin-bottom: 30%;
+    
+}
+#bloque2{
+    display: flex;
+    justify-content: center;
+    grid-row-start: 1;
+    
+    
+    
+
+}

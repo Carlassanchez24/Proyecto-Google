@@ -1,0 +1,261 @@
+
+#auricular1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+#auricular2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.bloque2{
+    width: 500px;
+    height: 500px;
+    margin:10%;
+}
+.bloque2 img{
+    padding: 4%;
+    border: 20%;
+}
+
+/**
+.bloque4{
+    background-color: #F8F9FB;
+    border-radius: 5px;
+    border: 20%;
+    padding: 4%;
+**/
+#auricular-centro{
+    width: 500px;
+    height: 400px;
+    border: 80%;
+    border-radius: 5%;
+    background-color: rgb(248, 249, 251);
+
+}
+.color img{
+    width: 50px;
+    height: 70px;
+}
+
+
+.iconos-rrss{
+    align-items: flex-end;
+
+}
+
+.page-conditions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr{
+    color: #58626B;
+}
+.btncolor{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+#btn-azul{
+    background-color: #9EC5EE;
+}
+#btn-neutro{
+    background-color: #E8E3DF;
+}
+#btn-gris{
+    background-color: #555456;
+}
+#btn-griswarm{
+    background-color: #D2D7DB;
+}
+#btn-verde{
+    background-color: #DFE5B8;
+}
+#btn-salmon{
+    background-color: #E58274;
+}
+#unidades{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 70px;
+    height: 40px;
+    border-color: #58626B;
+
+
+}
+#add{
+    background-color: #1A73E9;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 180px;
+    height: 40px;
+    align-items:flex-start;
+    color: white;
+
+}
+footer{
+    display: flexbox;
+
+}
+#foot{
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+}
+
+
+#logo-google{
+    width: 30px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .navigation {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #58626B;
+}
+
+
+.navigation {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo-google img {
+    height: 30px;
+    width: auto;
+}
+
+
+.opciones-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.opciones-menu-li {
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #58626B;
+}
+
+
+.opciones-usuario img {
+    height: 24px;
+    margin-left: 10px;
+}
+.flecha-atras{
+    padding: 30px;
+    color: #58626B;
+    justify-content: space-between;
+       
+
+}
+#azul{
+    color: #1A73E9 !important;
+}
+#flecha{
+    margin-right: 10px;
+    
+    
+}
+.footer{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.opciones-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.page-conditions{
+    margin-right: 50px;
+    color: #889196;
+
+}
+#texto-producto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #353B4B;
+}
+
+#preciosmall{
+    font-size: 20px;
+    font-weight: bold;
+}
+#price{
+    font-weight: bold;
+}
+
+
+
+.colorwatch {
+    
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px;
+}
+
+.bloque1, .bloque2, .bloque3 {
+    
+    padding: 1em;
+    
+    
+  }
+  
+
+.main {margin-right: 2%;
+    display: grid;
+    grid-template-areas: "cuatro uno dos"
+                         "cuatro uno tres"}
+
+.main .bloque1{grid-area: cuatro;}
+.main .bloque2{grid-area: uno;}
+.main .bloque3{grid-area: dos;}
+.main .bloque4{grid-area: tres;}
+
+.bloque4{
+background-color: #F8F9FB;
+border-radius: 5px;
+border: 20%;
+padding: 4%;
+
+}
+.bloque1{
+    margin-left: 8%;
+    margin-top: 20%;
+}
+.bloque3{
+    padding: 4%;
+}
