@@ -9,7 +9,7 @@
 <body>
     <header> 
         <nav class="navigation">
-            <div class="menu-navigation">
+            <div class="logo-container">
                 <img src="/images/google-logo.png" id="logo-google">
             </div>
             <ul class="opciones-menu" id="opciones-menu">
@@ -21,15 +21,15 @@
                 <li class="li"><a href="#" class="opciones-menu-li"> Subscriptions</a></li>
             </ul>
             <div class="opciones-usuario">
-                <div>
+
                     <img src="/images/Search.svg" alt="search">
                     <img src="/images/Help.svg" alt="help">
                     <img src="/images/Cart.svg" alt="cart">
                     <img src="/images/Avatar.svg" alt="avatar">
-                </div>
+
             </div>
         </nav>
-    </header>    
+    </header>   
     
     <nav class="flecha-atras"><img src="/images/Arrow.svg" alt="" id="flecha">See product details
     </nav>
@@ -64,7 +64,12 @@
             <section class="bloque4">
                 <p id="price">229€</p>
                 <hr>
-                <button id="unidades">1</button>
+                <select id="unidades">
+                    <option id="centrar" value="1" selected>1</option>
+                    <option value="2">2</option>
+
+                </select>
+            
                 <button id="add">Add to Cart</button>
                 <p><img src="/images/Delivery.svg" alt=""> Delivers 29 Apr to 08023</p>
             </section>

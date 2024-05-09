@@ -99,12 +99,16 @@ footer{
     font-size: 35px;
     color: #353B4B;
 }
+
 #preciosmall{
     font-size: 20px;
     font-weight: bold;
+    color: #353B4B;
 }
 #price{
     font-weight: bold;
+    font-size: 32px;
+    color: #353B4B;
 }
 
 .smartwatch_yellow{
@@ -186,13 +190,14 @@ footer{
 .main .bloque4{grid-area: tres;}
 
 
-#bloque4{
-    background-color: #F8F9FB;
-    border-radius: 5px;
-    border: 20%;
-    
-    }
 
+ .bloque4{
+        background-color: #F8F9FB;
+        border-radius: 5px;
+        margin-left: 3%;
+        padding: 4%;
+        
+        }
     
 #reloj-centro{
         width: 400px;
@@ -213,4 +218,18 @@ footer{
     
     
 
+}
+.bloque1{
+    margin-left: 35%;
+    margin-top: 100%;
+}
+.bloque3{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0%;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+#centrar{
+    text-align: center;
 }
