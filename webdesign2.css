@@ -8,6 +8,9 @@ hr{
     color: #58626B;
 }
   
+#linea1{
+    margin-right: 8%;
+}
   
 .navigation {
     background-color: #ffffff;
@@ -116,6 +119,7 @@ a{
     border-radius: 5%;
     border-color: #353B4B;
     border: 1px solid;
+    width: 30%;
     
 }
 .smartwatch_pink
@@ -124,6 +128,7 @@ a{
     border-radius: 5%;
     border-color: #353B4B;
     border: 1px solid;
+    width: 30%;
 }
 .smartwatch_black{
     background-color: white;
@@ -131,6 +136,7 @@ a{
     border-color: #353B4B;
     border-radius: 5px;
     border: 1px solid;
+    width: 30%;
 }
 
 .colorwatch {
@@ -138,7 +144,7 @@ a{
     grid-template-columns: repeat(3, 1fr); 
     gap: 5px;
     background-color: white;
-    
+    width: 100%;
     height: 7%;
     align-content: flex-end;
     flex-direction: row;
@@ -179,62 +185,85 @@ a{
     left: 0; 
     width: 100%;
 }
-
+/**
 .bloque2{
     margin-left: 15%;
     margin-bottom: 20%;
     border-radius: 5%;
 }
-
+**/
 .bloque2 img{
     padding: 10%;
+    align-content: center;
 }
+
 #bloquecentro{
     align-items: center;
     background-color: rgb(248, 249, 251);
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .main {margin-right: 2%;
     display: grid;
-        grid-template-areas: "uno dos"
-                             "uno tres"}
+        grid-template-areas: "uno uno dos"
+                             "uno uno tres"}
 
 .main .bloque2{grid-area: uno;}
 .main .bloque3{grid-area: dos;}
 .main .bloque4{grid-area: tres;}
 
-
+.bloque2{
+    align-self: center;
+    justify-self: center;
+    width: 102%;
+    margin-left: 8%;
+    margin-bottom: 40%;
+    border-radius: 5%;
+    height: 500px;
+    
+}
 
 .bloque4{
         background-color: #F8F9FB;
-        border-radius: 5px;
-        margin-left: 3%;
-        padding: 4%;
-        margin-right: 40%;
-        margin-top: 5% ;
-        margin-bottom: 20%;
+        border-radius: 5%;
+        align-self: flex-start;
+        justify-self: flex;
+        margin-top: 4%;
+        margin-left: 0%;
+        margin-bottom: 40%;
+        margin-right: 16%;
+        padding-left:4%;
+        padding-right: 4%;
+        
         }
 
 #reloj-centro{
         border-radius: 5%;
         display: flex;
         margin-left: 20px;
+        height: 70%;
+        padding-bottom: 40%;
+        padding-left: 30%;
+        padding-right: 20%;
+        margin-bottom: 20%;
    
 }
-
+/**
 .bloque2{
     margin-left: 5%;
     margin-bottom: 30%;
 }
+**/
 .bloque3{
     padding-left: 4%;
-    padding-right: 4%;
+    
     padding-top: 0%;
     align-self: flex-start;
     justify-self: flex-start;
+    width: 80%;
+    
 }
 #color{
     justify-content: flex-start;
@@ -278,3 +307,10 @@ a{
         margin-top: 14%;
         font-weight: bold;
     }
+
+.bloque3{
+    margin-left: 6%;
+}
+.bloque4{
+    margin-left: 10%;
+}
